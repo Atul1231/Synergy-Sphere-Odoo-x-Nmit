@@ -1,4 +1,3 @@
-// run cli = npm run dev
 import "dotenv/config";
 import express, { NextFunction, Request, Response } from "express";
 import cors from "cors";
@@ -59,7 +58,6 @@ app.use(
       });
     })
   );
-
 
   app.use(`${BASE_PATH}/auth`, authRoutes);
   app.use(`${BASE_PATH}/user`, isAuthenticated, userRoutes);
