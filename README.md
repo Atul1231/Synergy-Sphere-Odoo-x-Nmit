@@ -1,13 +1,17 @@
-```
-# 🚀 Synergy Sphere  
+
+🚀 Synergy Sphere  
 
 Synergy Sphere is an advanced **team collaboration platform** designed to boost productivity and streamline teamwork. Built with a modern stack – **React, TypeScript, Vite (frontend)** and **Node.js, Express, MongoDB (backend)** – it empowers teams with real-time collaboration and efficient project management.  
 
+Team Members
+* Naman jain
+* Dibyanshu Lunia
+* Tanish sarkar
+* Atul Singh
+
 ---
-
-## 📂 Project Structure  
-
 ```
+📂 Project Structure  
 
 Team-Sync-main/
 ├── backend/               # Express + MongoDB backend
@@ -35,11 +39,10 @@ Team-Sync-main/
 ├── package.json           # Root config (optional)
 └── ...
 
-````
-
+```
 ---
 
-## ⚡ Features  
+⚡ Features  
 
 - ✅ Workspace & Project Management  
 - ✅ Task Assignment & Tracking  
@@ -49,9 +52,9 @@ Team-Sync-main/
 
 ---
 
-## 🛠️ Tech Stack  
+🛠️ Tech Stack  
 
-**Frontend**  
+**Frontend** 
 - React + TypeScript  
 - Vite  
 - Tailwind CSS  
@@ -59,46 +62,41 @@ Team-Sync-main/
 **Backend**  
 - Node.js + Express  
 - MongoDB + Mongoose  
-- JWT Authentication  
 
 ---
 
-## 🚀 Getting Started  
+🚀 Getting Started  
 
-### 📌 Prerequisites  
+📌 Prerequisites  
 - [Node.js](https://nodejs.org/) (v18+)  
 - npm or yarn  
 - [MongoDB](https://www.mongodb.com/)  
 
 ---
 
-### ▶ Backend Setup  
+▶ Backend Setup  
 
-```sh
+```
 cd backend
 npm install
 cp .env.example .env   # configure environment variables
 npm run dev            # start backend server
-````
 
-🔹 Runs on: `http://localhost:5000`
-
----
-
-### ▶ Client Setup
+🔹 Runs on: `http://localhost:8000`
+```
+▶ Client Setup
 
 ```sh
 cd client
 npm install
 cp .env.example .env   # configure environment variables
 npm run dev            # start frontend
-```
 
 🔹 Runs on: `http://localhost:5173`
-
+```
 ---
 
-## 📜 Scripts
+📜 Scripts
 
 * `npm run dev` – Start development server
 * `npm run build` – Build production version
@@ -106,18 +104,7 @@ npm run dev            # start frontend
 
 ---
 
-## 🤝 Contributing
-
-1. Fork this repo
-2. Create a feature branch → `git checkout -b feature/my-feature`
-3. Commit your changes → `git commit -m 'Add my feature'`
-4. Push to branch → `git push origin feature/my-feature`
-5. Open a Pull Request 🎉
-
----
-
-## 📄 License
-
+📄 License
 This project is licensed under the **MIT License**.
 
 ---
