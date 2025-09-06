@@ -1,0 +1,20 @@
+{
+  "name": "synergy-sphere-odoo-x-nmit",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Atul1231/Synergy-Sphere-Odoo-x-Nmit#readme",
+  "bugs": {
+    "url": "https://github.com/Atul1231/Synergy-Sphere-Odoo-x-Nmit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atul1231/Synergy-Sphere-Odoo-x-Nmit.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
