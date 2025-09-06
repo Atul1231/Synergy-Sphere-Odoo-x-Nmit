@@ -34,6 +34,5 @@ const memberSchema = new Schema<MemberDocument>(
     timestamps: true,
   }
 );
-
 const MemberModel = mongoose.model<MemberDocument>("Member", memberSchema);
 export default MemberModel;
