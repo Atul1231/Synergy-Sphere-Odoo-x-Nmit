@@ -4,7 +4,7 @@ import {
   TaskPriorityEnumType,
   TaskStatusEnum,
   TaskStatusEnumType,
-} from "../enums/task.enum.ts";
+} from "../enums/task.enum";
 import { generateTaskCode } from "../utils/uuid";
 
 export interface TaskDocument extends Document {
