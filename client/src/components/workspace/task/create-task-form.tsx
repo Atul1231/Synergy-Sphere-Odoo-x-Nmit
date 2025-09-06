@@ -118,11 +118,9 @@ export default function CreateTaskForm(props: {
         required_error: "Priority is required",
       }
     ),
-    assignedTo: z.string().trim().min(1, {
-      message: "AssignedTo is required",
-    }),
+    assignedTo: z.string().trim().optional(),
     dueDate: z.date({
-      required_error: "A date of birth is required.",
+      required_error: "A date is required.",
     }),
   });
 
